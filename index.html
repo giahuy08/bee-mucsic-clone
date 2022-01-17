@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./assets/css/grid.css" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+  </head>
+  <body>
+    <div class="bg-color app">
+      <div class="navbar bg-color-second">
+        <div class="navbar-head">
+          <div class="navbar-menu">
+            <i class="fas fa-list-ul"></i>
+          </div>
+          <div class="navbar-logo">
+            <a href="#" class="icon">
+              <i class="fab fa-forumbee"></i>
+            </a>
+            <a href="#" class="navbar__title">
+              <span class="navbar__title-left">Bee</span>music
+            </a>
+          </div>
+
+          <ul class="navbar__list">
+            <li class="navbar__item">
+              <a href="#">
+                <i class="fas fa-home-lg-alt"></i>
+                <span class="navbar__item-title">Home</span>
+              </a>
+            </li>
+            <li class="navbar__item">
+              <a href="#">
+                <i class="fas fa-chart-line"></i>
+                <span class="navbar__item-title">Trends</span>
+              </a>
+            </li>
+            <li class="navbar__item">
+              <a href="#">
+                <i class="fas fa-compass"></i>
+                <span class="navbar__item-title">Feed</span>
+              </a>
+            </li>
+          </ul>
+
+          <ul class="navbar__list">
+            <h4 class="navbar__list-title">Discover</h4>
+            <li class="navbar__item">
+              <a href="#">
+                <i class="fas fa-glass-cheers"></i>
+                <span class="navbar__item-title">New & Notable</span>
+              </a>
+            </li>
+            <li class="navbar__item">
+              <a href="#">
+                <i class="fas fa-calendar-alt"></i>
+                <span class="navbar__item-title">Release Calendar</span>
+              </a>
+            </li>
+            <li class="navbar__item">
+              <a href="#">
+                <i class="fas fa-ticket-alt"></i>
+                <span class="navbar__item-title">Event</span>
+              </a>
+            </li>
+          </ul>
+
+          <ul class="navbar__list">
+            <h4 class="navbar__list-title">Collection</h4>
+
+            <li class="navbar__item">
+              <a href="#">
+                <i class="fas fa-heart"></i>
+                <span class="navbar__item-title">Favorite songs</span>
+              </a>
+            </li>
+            <li class="navbar__item">
+              <a href="#">
+                <i class="fas fa-users"></i>
+                <span class="navbar__item-title">Artist</span>
+              </a>
+            </li>
+            <li class="navbar__item">
+              <a href="#">
+                <i class="fas fa-star"></i>
+                <span class="navbar__item-title">Album</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="navbar_footer">
+          <a href="#" class="navbar-info">
+            <img src="./assets/images/avatar.jpg" alt="" class="avatar" />
+            <div class="username">Gia Huy Nguyen</div>
+          </a>
+          <i class="fas fa-chevron-right"></i>
+        </div>
+      </div>
+      <div class="main">
+        <div class="header">
+          <div class="header__control">
+            <a href="#">
+              <i class="fas fa-arrow-left header__control-icon"></i>
+            </a>
+            <a href="#">
+              <i class="fas fa-arrow-right header__control-icon"></i>
+            </a>
+          </div>
+          <div class="header__search-wrap">
+            <i class="fas fa-search"></i>
+            <input
+              type="text"
+              class="header__search"
+              placeholder="Search for artists, songs, and..."
+            />
+          </div>
+        </div>
+        <div class="content">
+          <p class="content-hot">What's hot 🔥</p>
+          <div class="content__title-wrap">
+            <h2 class="content__title">Trending</h2>
+            <a href="#" class="content-more">
+              More
+              <i class="fas fa-chevron-right"></i>
+            </a>
+          </div>
+          <div class="content__banner">
+            <div class="content__banner-img">
+              <img
+                src="https://images.unsplash.com/photo-1641440355312-47e74888163d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8"
+                alt=""
+              />
+            </div>
+            <div class="content__banner-group">
+              <p class="content__banner-title">Artist</p>
+              <h2 class="content__banner-desc">On Top <br />Of The World</h2>
+              <div class="content__banner-wrap">
+                <div class="content__banner__btn-wrap">
+                  <button class="content__btn-play content__btn">PLAY</button>
+                  <button class="content__btn-follow content__btn">
+                    FOLLOW
+                  </button>
+                </div>
+                <div class="content__listeners">
+                  <div class="content__listeners-title">Monthly Listeners</div>
+                  <div class="content__listeners-count">427901</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="content__playist">
+            <div class="content__title-wrap">
+              <h2 class="content__title">My playlist</h2>
+              <a href="#" class="content-more"> Show all </a>
+            </div>
+            <div class="content__playlist-header">
+              <span>#</span>
+              <span>title</span>
+              <span>artist</span>
+              <span>time</span>
+              <span>Album</span>
+            </div>
+            <ul class="content__playlist__song">
+              <li class="song__item song-active">
+                <p>1</p>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis
+                  minima saepe quo nam cum adipisci velit amet quibusdam
+                  accusantium! Commodi fugiat facilis delectus magni tenetur
+                  autem nobis eligendi, error molestiae.
+                </p>
+                <p>The Weekend</p>
+                <p>4:25</p>
+                <p>none</p>
+              </li>
+              <li class="song__item">
+                <p>1</p>
+                <p>The hill</p>
+                <p>The Weekend</p>
+                <p>4:25</p>
+                <p>none</p>
+              </li>
+            </ul>
+            <div class="content__song">
+              <div class="content__song-chorus">I feel like i'm drowing</div>
+              <div class="content__song-control">
+                <div class="control-left">
+                  <i class="far fa-heart"></i>
+                  <i class="far fa-plus-square"></i>
+                  <i class="fas fa-expand-alt"></i>
+                </div>
+
+                <div class="control-center">
+                  <i class="fas fa-redo"></i>
+                  <i class="fas fa-fast-backward"></i>
+                  <i class="fas fa-pause-circle icon-play"></i>
+                  <i class="fas fa-fast-forward"></i>
+                  <i class="fas fa-random"></i>
+                </div>
+
+                <div class="control-right">
+                  <i class="fas fa-volume-off"></i>
+                  <input
+                    type="range"
+                    name="control__volume-input"
+                    class="control__volume-input"
+                    id="control__volume-input"
+                  />
+                  <i class="fas fa-volume-down"></i>
+                </div>
+              </div>
+              <div class="content__seek">
+                <span>0:00</span>
+                <input
+                  type="range"
+                  name="seekbar-input"
+                  class="seekbar-input"
+                  id="seekbar-input"
+                />
+
+                <span>3:45</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="popular">
+        <div class="shortcuts">
+          <div class="shortcuts__type">
+            <h3 class="shortcuts__title">Shortcuts</h3>
+            <ul class="shortcuts__list">
+              <li class="shortcuts__item"><a href="#">❄️ Chill</a></li>
+
+              <li class="shortcuts__item"><a href="#"> 🎸 Rocks</a></li>
+              <li class="shortcuts__item">
+                <a href="#">🎹 Piano instrumental</a>
+              </li>
+              <li class="shortcuts__item"><a href="#">🥁 Beat</a></li>
+              <li class="shortcuts__item"><a href="#">🌟 Pop</a></li>
+              <li class="shortcuts__item"><a href="#">🎺 Jazz</a></li>
+              <li class="shortcuts__item"><a href="#">🎵 Acoustic</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="artist">
+          <h3 class="artist__title">Fav Artist</h3>
+          <ul class="artist__list">
+            <li class="artist__item">
+              <div class="artist__item-info">
+                <img
+                  src="./assets/images/blackpink.jpg"
+                  alt=""
+                  class="artist__img"
+                />
+                <div class="artist__item-count">
+                  <h3 class="artist__name">The Weeknd</h3>
+                  <p class="artist__count">17 Song in library</p>
+                </div>
+              </div>
+              <i class="fas fa-ellipsis-h"></i>
+            </li>
+            <li class="artist__item">
+              <div class="artist__item-info">
+                <img
+                  src="./assets/images/blackpink.jpg"
+                  alt=""
+                  class="artist__img"
+                />
+                <div class="artist__item-count">
+                  <h3 class="artist__name">The Weeknd</h3>
+                  <p class="artist__count">17 Song in library</p>
+                </div>
+              </div>
+              <i class="fas fa-ellipsis-h"></i>
+            </li>
+
+            <li class="artist__item">
+              <div class="artist__item-info">
+                <img
+                  src="./assets/images/blackpink.jpg"
+                  alt=""
+                  class="artist__img"
+                />
+                <div class="artist__item-count">
+                  <h3 class="artist__name">The Weeknd</h3>
+                  <p class="artist__count">17 Song in library</p>
+                </div>
+              </div>
+              <i class="fas fa-ellipsis-h"></i>
+            </li>
+          </ul>
+        </div>
+
+        <div class="video">
+
+          
+          <iframe
+           
+            src="https://www.youtube.com/embed/ioNng23DkIM"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            class="video-link"
+            allowfullscreen
+          ></iframe>
+          <div class="video__wrapper">
+
+            <div class="video__info">
+  
+              <h3 class="video-name">
+                BLACKPINK - 'How You Like That' M/V
+              </h3>
+              <p class="video-artist">
+                BLACKPINK
+              </p>
+            </div>
+            <a href="#" class="video__more"><i class="fas fa-plus-square"></i></a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
